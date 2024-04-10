@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jennifer Akpieyi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6f9573d541.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Akatab:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="css/main.css">
+</head>
+  <body>
+  <!-- respinsive nav with a logo  -->
+      
+<header role="banner" id="top">
+    <nav class="navbar-main navbar navbar-expand-sm bg-body-tertiary p-0" role="navigation">
+      <div class="container-fluid bg-secondary">
+  
+        <a class="navbar-brand" href="index.html">
+          <img src="amanpic.jpg" class="navbar-brand" alt="logo" width="60" height="60">
+          </a>
+  
+        <button class="btn text-black d-block d-sm-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        
+        <!-- offcanvas for mobile  -->
+
+        <div class="offcanvas offcanvas-end text-black bg-secondary" tabindex="-1" id="offcanvasExample">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+           </div>
+              <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-sm-auto mb-2 mb-lg-0 d-flex align-items-center">
+                
+                          <li class="nav-item">
+
+                            <!-- current page  -->
+
+                              <a class="nav-link active fw-bold px-sm-4 px-md-5" aria-current="page" href="index.html">Home</a>
+                          </li>
+
+                          <li class="nav-item">
+                              <a class="nav-link px-sm-4 px-md-5" href="Portfolio.html">My Portfolio</a>
+                          </li>
+
+                          <li class="nav-item">
+                              <a class="nav-link px-sm-4 px-md-5" href="about.html">About</a>
+                          </li>
+
+                          <li class="nav-item">
+                              <a class="nav-link px-sm-4 px-md-5" href="contact.html">Contact</a>
+                          </li>
+                      </ul>
+                </div>
+            </div>
+          </div>
+      </nav>
+</header>
+
+        
+          <!-- slideshow -->
+
+          <div class="position-relative">
+            <div id="carouselExampleCaptions" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+
+              <!-- skip link to welcome message on every slide  -->
+
+              <div class="carousel-caption-skip">
+                  <a href="#message">
+                    <i class="fa-solid fa-chevron-down fa-customm text-white"></i>
+                  </a>
+                </div>
+              <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+
+                  <img src="images/main-slide/flower.png" 
+                  srcset="images/main-slide/flower-450_x_675.png 450w,
+                         images/main-slide/flower-700_x_1050.png 700w"
+                  sizes="(max-width:960px)"
+                  role="img" aria-details="slide 0"
+                  class="d-block w-100" alt="slide 0">
+
+
+
+                 
+
+                  <div class="carousel-caption py-5 identity">
+                    <h1 class="fw-bold display-2">Amandeep Saini</h1>
+                    <p class="fw-bold display-6">Graphic Designer</p>
+                 </div>
+                 </div> 
+                <div class="carousel-item">
+
+                  <img src="images/main-slide/flower2.jpg" 
+                  srcset="images/main-slide/flower2-450_x_675.jpeg 450w,
+                          images/main-slide/flower2-700_x_1050.jpeg 700w"
+                  sizes="(max-width:960px)"
+                  role="img" aria-details="slide 2"
+                  class="d-block w-100" alt="slide 2">
+
+
+                  <div class="carousel-caption py-5 identity">
+                    <h1 class="fw-bold display-2">Amandeep Saini</h1>
+                    <p class="fw-bold display-6">Graphic Designer</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+
+                  <img src="images/main-slide/flower3.jpg" 
+                  srcset="images/main-slide/flower3-450_x_675.jpeg 450w,
+                          images/main-slide/flower3-700_x_1050.jpeg 700w"
+                  sizes="(max-width:960px)"
+                  role="img" aria-details="slide 3"
+                  class="d-block w-100" alt="slide 3">
+
+
+                  <div class="carousel-caption py-5 identity">
+                    <h1 class="fw-bold display-2">Amandeep Saini</h1>
+                    <p class="fw-bold display-6">Graphic Designer</p>
+                  </div> 
+                </div>
+                <div class="carousel-item">
+
+                  <img src="images/main-slide/flower4.png" 
+                  srcset="images/main-slide/flower4-450_x_675.png 450w,
+                          images/main-slide/flower4-700_x_1050.png 700w"
+                  sizes="(max-width:960px)"
+                  role="img" aria-details="slide 1"
+                  class="d-block w-100" alt="slide 4">
+
+
+                  <div class="carousel-caption py-5 identity">
+                    <h1 class="fw-bold display-2">Amandeep Saini</h1>
+                    <p class="fw-bold display-6">Graphic Designer</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- previous and next button  -->
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+        </div>
+      
+
+
+        <!-- welcome message -->
+  <main role="main" id="message">
+          <div class="mt-5">
+              <div class="container">
+                  <div class="row py-5">
+                      <div class="col text-center">
+                          <h1 class="fw-bold text-primary mb-3 display-4">Welcome!</h1>
+
+                          <p class="text-justify">Welcome to my portfolio website!
+                            Here, you'll discover a collection
+                          of my creative endeavors and professional 
+                          achievements. Take a moment to explore my
+                          work and get to know me better.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  </main>
+
+<!-- link to work page  -->
+    <div class="d-flex  justify-content-center mb-5">
+      <a href="work.html" class="text-center btn border-3 text-primary mb-3 fw-bold send-contact rounded-2">
+        Explore
+      </a>
+    </div>
+
+
+
+    <!-- bact to top button  -->
+
+      <div class="text-center mt-5">
+          <a href="#top">
+            <i class="fa-solid fa-chevron-up text-black"></i>
+          </a>
+      </div>
+
+
+ 
+ <!-- footer  -->
+
+ <div class="container-fluid bg-danger mt-5">
+      <footer class="text-center" role="contentinfo">
+      <div class="row">
+        <div class="col-sm-2">
+          <a class="d-none d-sm-block" href="index.html"> 
+          <img  src="images/logoii.svg" alt="logo"  id="logo-footer">
+      </a>
+        </div>
+
+        <!-- footer nav pages -->
+
+        <div class="col-sm-10 mt-sm-4">
+
+                  <div class="footer-links d-flex justify-content-around flex-column flex-sm-row">
+
+                        <p>
+                          <a class="nav-link font-weight-light" href="work.html">My work</a>
+                        </p>
+                        <p>
+                          <a class="nav-link font-weight-light" href="about.html">About</a>
+                        </p>
+                        <p>
+                          <a class="nav-link font-weight-light" href="contact.html">Contact</a>
+                        </p> 
+
+                  </div>
+        </div>
+
+        <!-- footer external links -->
+
+                <div class="col">
+                  <div class="footer-social-links  d-flex justify-content-between">
+                    <p>
+                      <a href="amancanada12345@gmail.com">
+                        <i class="brands fa-solid fa-envelope text-black"></i>
+                      </a>
+                    </p>
+                    
+                    <p>
+                      <a href="https://www.instagram.com/jennys_artt/">
+                        <i class="brands fa-brands fa-instagram text-black"></i>
+                      </a>
+                    </p>
+                    
+                    <p>
+                      <a href="https://t.snapchat.com/aIQeoWFB">
+                        <i class="brands fa-brands fa-snapchat text-black"></i>
+                      </a>
+                    </p>
+                    <p>
+                      <a href="https://github.com/akpi0006">
+                      <i class="brands fa-brands fa-github text-black"></i>
+                     </a>
+                    </p>
+                    <p>
+                      <a href="https://jennysportfolio.myportfolio.com/">
+                        <i class="brands fa-solid fa-camera text-black"></i>
+                      </a>
+                    </p>
+                  </div>
+                </div>
+         </div>
+      </footer>
+  
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
